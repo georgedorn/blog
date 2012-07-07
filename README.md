@@ -1,0 +1,4 @@
+blog
+====
+
+Pelican-powered blog.
