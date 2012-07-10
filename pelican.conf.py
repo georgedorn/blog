@@ -5,7 +5,7 @@ AUTHOR = u"George Dorn"
 SITENAME = u"Circuitlocutious"
 SITEURL = '/'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG='en'
 
@@ -20,9 +20,12 @@ DEFAULT_LANG='en'
 # Social widget
 SOCIAL = (
         ('Twitter', 'http://twitter.com/GDorn'),
-         )
+        ('Stack Overflow', 'http://stackoverflow.com/users/402605/gdorn'),
+        ('Linkedin', 'http://www.linkedin.com/in/gdorn'),
+        ('Github', 'https://github.com/georgedorn'),
+        )
 
-DEFAULT_PAGINATION = 7
+#DEFAULT_PAGINATION = 7
 
 ARTICLE_PERMALINK_STRUCTURE = "%Y/%m/%d/"
 TAG_CLOUD_STEPS = 4
