@@ -32,7 +32,7 @@ TAG_CLOUD_MAX_ITEMS = 100
 #project_path = os.path.abspath(os.path.dirname(__file__))
 #STATIC_ROOT = os.path.join(project_path, '..', 'static')
 #THEME = './simple' 
-THEME = './pelican-themes/subtle'
+THEME = './themes/tuxlite_tbs'
 CSS_FILE = 'main.css'
 
 DISQUS_SITENAME = 'gdorn-blog'
