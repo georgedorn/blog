@@ -3,7 +3,7 @@
 
 AUTHOR = u"George Dorn"
 SITENAME = u"Circuitlocutious"
-SITEURL = '/'
+SITEURL = 'http://gdorn.circuitlocution.com/blog'
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -25,7 +25,7 @@ SOCIAL = (
         ('Github', 'https://github.com/georgedorn'),
         )
 
-#DEFAULT_PAGINATION = 7
+DEFAULT_PAGINATION = 5
 
 ARTICLE_PERMALINK_STRUCTURE = "%Y/%m/%d/"
 TAG_CLOUD_STEPS = 4

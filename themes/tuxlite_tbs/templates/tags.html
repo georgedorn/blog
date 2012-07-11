@@ -2,8 +2,10 @@
 {% block title %}{{ SITENAME }} <small>[tgs]</small>{% endblock %}
 {% block content %}
 <ul>
-{% for tag, articles in tags %}
-    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
-{% endfor %}
+    {% for tag, articles in tags|sort %}
+    {% if tag %}
+    <li><a href="{{ SITEURL }}/tag/{{tag}}.html">{{ tag }}</a> ({{articles|length}} entries)</li>
+    {% endif %}
+    {% endfor %}
 </ul>
 {% endblock %}
