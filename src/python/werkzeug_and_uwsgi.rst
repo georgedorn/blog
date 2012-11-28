@@ -21,7 +21,7 @@ This led to headaches when trying to use Werkzeug's awesome `Ajax-based python i
  __debugger__/?cmd=resource&f=source.png
 
 
-What's the fix?  Rewrite some of the environ coming from uwsgi, using a middleware in your wsgi handler module:
+What's the fix?  Rewrite some of the environ coming from uWSGI, using a middleware in your wsgi handler module:
 
 .. code-block:: python
 
