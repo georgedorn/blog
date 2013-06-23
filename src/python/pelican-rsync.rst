@@ -12,7 +12,7 @@ Right under ssh_upload::
  rsync_upload: $(OUTPUTDIR)/index.html
 	rsync -r -v $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
-Also add it to .PHONY (for bash completion)::
+Also add it to .PHONY (for tab completion in bash)::
 
  .PHONY: html help clean ftp_upload ssh_upload rysnc_upload dropbox_upload github
 
@@ -21,3 +21,5 @@ And if you feel like it, add it to help::
  help:
     @echo '   rsync_upload                   upload the web site using rsync '
 
+
+Alternately, you can just look at my finished `Makefile <https://github.com/georgedorn/blog/blob/master/Makefile>`_.
