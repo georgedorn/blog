@@ -11,9 +11,9 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=locahost
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=circuitlocution.com
+SSH_USER=gdorn
+SSH_TARGET_DIR=~/public_html/blog
 
 DROPBOX_DIR=~/Dropbox/Public/
 
@@ -26,6 +26,7 @@ help:
 	@echo '   ftp_upload                       upload the web site using FTP     '
 	@echo '   ssh_upload                       upload the web site using SSH     '
 	@echo '   dropbox_upload                   upload the web site using Dropbox '
+	@echo '   rsync_upload                     upload the web site using rysnc   '
 	@echo '                                                                      '
 
 
@@ -45,6 +46,9 @@ dropbox_upload: $(OUTPUTDIR)/index.html
 ssh_upload: $(OUTPUTDIR)/index.html
 	scp -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
 
+rsync_upload: $(OUTPUTDIR)/index.html
+	rsync -r -v $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
+
 ftp_upload: $(OUTPUTDIR)/index.html
 	lftp ftp://$(FTP_USER)@$(FTP_HOST) -e "mirror -R $(OUTPUT_DIR)/* $(FTP_TARGET_DIR) ; quit"
 
@@ -52,5 +56,5 @@ github: $(OUTPUTDIR)/index.html
 	ghp-import $(OUTPUTDIR)
 	git push origin gh-pages
 
-.PHONY: html help clean ftp_upload ssh_upload dropbox_upload github
+.PHONY: html help clean ftp_upload ssh_upload rsync_upload dropbox_upload github
     
