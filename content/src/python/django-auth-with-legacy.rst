@@ -56,7 +56,10 @@ And then used it like this:
  application = SiteSwitcher(apps)
 
 This approach does mean maintaining three silos of routing info - one in django's urls.py, one in the legacy app's routing, and one primitive one in your wsgi handler module.  The more you can partition the app domains with a short substring, the less headache this will be, but let's face it, it's going to be a headache.
+
+
 Authentication using Django Middleware
+======================================
 
 If your app has pages that require the user to be authenticated, you're going to run into some problems as logging into your legacy site won't auth users for the new site.  One choice is to port all of the auth from the old system over to using Django, but for a gradual rollout, that's a really big obstacle in the way.  Instead, we decided to keep the legacy auth system in place and convince Django to play nice.
 
@@ -76,7 +79,8 @@ Django's auth system revolves around the request.user object.  Django's own auth
                  user = User.objects.get(username=luser.username) #see if Django user already exists
              except User.DoesNotExist:
                  #No user?  Create one on the fly
-                 user = User(username=luser.username, email=luser.email, first_name=luser.first_name, last_name=luser.last_name)
+                 user = User(username=luser.username, email=luser.email, 
+                             first_name=luser.first_name, last_name=luser.last_name)
                  user.set_password(luser.password) #password not actually used
                  user.pk = luser.uid #this allows users to keep the same ID when you finish migrating
  
