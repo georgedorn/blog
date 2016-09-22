@@ -35,8 +35,11 @@ TAG_CLOUD_MAX_ITEMS = 100
 #project_path = os.path.abspath(os.path.dirname(__file__))
 #STATIC_ROOT = os.path.join(project_path, '..', 'static')
 #THEME = './simple' 
-THEME = './themes/tuxlite_tbs'
+#THEME = './themes/tuxlite_tbs'
+THEME = 'notmyidea'
 CSS_FILE = 'main.css'
 
 DISQUS_SITENAME = 'gdorn-blog'
 GITHUB_URL = 'http://github.com/georgedorn/blog'
+
+OUTPUT_PATH = '/home/gdorn/public_html/blog'

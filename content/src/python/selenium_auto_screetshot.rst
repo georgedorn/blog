@@ -37,12 +37,10 @@ much research and pain, this is what I came up with:
 	    def tearDown(self):
 	        '''
           tearDown is called after every test function.
-
           unittest.TestCase.run() handles errors and failures by appending each
           to the aggregate TestResult lists (TestResult.errors and TestResult.failures)
           so after a test just failed or errored, it'll be the last one in the list.
 	        '''
-
 	        result = self.currentResult  # currentResult contains running results for every test in a TestCase
 	        if result.errors:
 	            last_error = result.errors[-1]
@@ -59,7 +57,10 @@ much research and pain, this is what I came up with:
 
 	    def _save_screenshot(self, error=None):
           '''
-          At this point,
+          At this point, we can use the browser object to save a screenshot.
+          We can also do this directly from test functions.
+          Screenshots will be saved with the python path to the test method
+          as a filename.
           '''
 	        path = settings.SELENIUM_SCREENSHOTS_PATH
 	        import os
@@ -76,7 +77,9 @@ If I could wave a magic wand and update the unittest API, it would be far easier
 TestCase.run() returned the last test function's result.
 
 Sources:
+
 http://stackoverflow.com/questions/12290336/how-to-execute-code-only-on-test-failures-with-python-unittest2
-http://stackoverflow.com/questions/4414234/getting-pythons-unittest-results-in-a-teardown-method
+
+shttp://stackoverflow.com/questions/4414234/getting-pythons-unittest-results-in-a-teardown-method
 
 Most of my initial research came from here, and there's also suggestions for Python 3.x compatability.
