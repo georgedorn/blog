@@ -10,7 +10,9 @@ uWSGI is a fairly awesome app server; it's lightweight and fast, yet highly stab
 
 Unfortunately, mod_uwsgi for lighttpd is somewhat half-baked.  Aside from yet another app server using the equivalent of urllib.unquote instead of urllib.unquote_plus, it also behaves differently than most app servers in dealing with query parameters.
 
-This led to headaches when trying to use Werkzeug's awesome `Ajax-based python interpreter-in-a-page <http://werkzeug.pocoo.org/docs/debug/#enabling-the-debugger>`_, as the static asset requests were not getting caught by Werkzeug's middleware.  If you watch it with firebug, you'll see 404's for a bunch of requests:
+This led to headaches when trying to use Werkzeug's awesome 
+`Ajax-based python interpreter-in-a-page <http://werkzeug.pocoo.org/docs/debug/#enabling-the-debugger>`_, as the static asset requests were not getting caught by Werkzeug's middleware.
+If you watch it with firebug, you'll see 404's for a bunch of requests:
 
 :: 
 
