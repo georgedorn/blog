@@ -24,6 +24,11 @@ AUTHOR_FEED_RSS = None
 #         ('Python.org', 'http://python.org/'),
 #         ('Jinja2', 'http://jinja.pocoo.org/'),
 #         ('You can modify those links in your config file', '#'),)
+LINKS = [
+    ('RST WYSIWYG editor', 'http://rst.ninjs.org/'),
+
+]
+
 
 # Social widget
 SOCIAL = (
