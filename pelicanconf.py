@@ -45,5 +45,5 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 #THEME = 'notmyidea'
 DISQUS_SITENAME = 'gdorn-blog'
-GITHUB_URL = 'http://github.com/georgedorn/blog'
+#GITHUB_URL = 'http://github.com/georgedorn/blog'
 THEME = './themes/tuxlite_tbs'
