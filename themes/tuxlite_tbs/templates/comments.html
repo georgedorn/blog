@@ -1,0 +1,12 @@
+{% if COMMENTS_SITENAME %}
+<div class="comments-go-here"></div>
+<script src="https://gdorn.circuitlocution.com/schnack/embed.js"
+    data-schnack-slug="{{ COMMENTS_SITENAME }}-{{ article.slug | replace('_', '-')}}"
+    data-schnack-target=".comments-go-here"
+    data-schnack-host="https://gdorn.circuitlocution.com/schnack"
+>
+</script>
+<noscript>
+Commenting exists but relies on JavaScript.  TODO: Existing comments might be prerendered below.
+</noscript>
+{% endif %}

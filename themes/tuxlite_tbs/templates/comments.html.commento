@@ -1,0 +1,7 @@
+{% if COMMENTS_SITENAME %}
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
+<noscript>
+Commenting exists but relies on JavaScript.  TODO: Existing comments might be prerendered below.
+</noscript>
+{% endif %}
