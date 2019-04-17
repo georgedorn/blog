@@ -1,3 +1,13 @@
+@font-face {
+    font-family: DPolyTwentySider;
+    src: url("fonts/DPolyTwenty-Sider.woff") format("woff"), url("fonts/DPolyTwenty-Sider.ttf")  format("truetype");
+}
+
+span.d20 {
+  font-family: 'DPolyTwentySider', serif;
+}
+
+
 /* Styling for Nav bar. Bg color, link color etc */
 .navbar-inner {
   padding-left: 20px;
