@@ -22,7 +22,7 @@ Along the way, I'll be using two example scenarios:
 
 Brown Book D&D (1974)
 ---------------------
-From the beginning, D&D relied on charts.  You used your level and the AC of the monster and tried to roll over the number to hit.  However, at this stage, AC ranged only from 9 (no armor) to 2 (Plate armor and shield) and level improvements to your target number occured every 3 (fighters) to 5 (magic users) levels.  This resulted in a very small chart.
+From the beginning, D&D relied on charts.  You used your level and the AC of the monster and tried to roll over the number to hit.  However, at this stage, AC ranged only from 9 (no armor) to 2 (Plate armor and shield) and level improvements to your target number occurred every 3 (fighters) to 5 (magic users) levels.  This resulted in a very small chart.
 
 There are several other oddities, at least to our modern sensibilities, but only worth mentioning briefly:
 
@@ -60,7 +60,7 @@ AD&D First Edition (1979)
 
 .. image:: images/first_edition_to_hit_fighters.jpg
 
-A bit counter-intutive to read, so our fighter example can illustrate.  To hit a goblin (still AC 6), our fighter needs a natural roll of 13 (to which +1 is added for a total of 14).
+A bit counter-intuitive to read, so our fighter example can illustrate.  To hit a goblin (still AC 6), our fighter needs a natural roll of 13 (to which +1 is added for a total of 14).
 
 Our archer example reveals that not only has Basic's 20-plateau persisted, it stretched to 6 entries instead of 5!  Now our archer can hit anything from a 0 to -5 AC on a natural 18 or better.  At the same time, many monsters have seen their armor nerfed; of the dragons, only a Chromatic (AC 0), Red or Silver (AC -1), Gold (AC -2) or Platinum (AC -3) fall in this range.  To see an AC -5 we have to look into the ranks of demons and devils.
 
@@ -77,7 +77,7 @@ AD&D Second Edition (1989)
   **Figuring the To-Hit Number**
   The first step in making an attack roll is to find the number needed to hit the target.  Subtract the Armor Class of the target from the attacker's THAC0 (Remember that if the Armor Class is a negative number, you *add* it to the attacker's THAC0.)  The character has to roll the resulting number, or higher, on 1d20 to hit the target.
   
-THAC0 officially removed the 20-plateau wart, for better or worse, and also made it easier to pre-emptively include your typical bonuses and penalties for any given weapon.  We could say that our fighter has a THAC0 of 20 and a +1 to hit, or we could just say he has a THAC0 of 19.  They're logically equivalent.  To hit that goblin (AC 6, still), the fighter needs a natural 13.
+THAC0 officially removed the 20-plateau wart, for better or worse, and also made it easier to preemptively include your typical bonuses and penalties for any given weapon.  We could say that our fighter has a THAC0 of 20 and a +1 to hit, or we could just say he has a THAC0 of 19.  They're logically equivalent.  To hit that goblin (AC 6, still), the fighter needs a natural 13.
 
 To compensate for the now-missing wiggle room at the edge of your character's abilities, for the first time we see rules stating that a 20 always hits.  This is a small consolation for the archer with the magic bow, however.  Where a natural 18 would hit a wide range of dragons, that 18 will only hit AC 0 targets now - Blue and Green dragons.  Coupled with a de-nerfing of monsters in 2e, a natural 20 is needed for almost every other well-known dragon type.
 
@@ -104,7 +104,7 @@ AD&D First Edition also included it in some publications, though with similarly 
 I Have A Theory
 _______________
 
-I have a theory, then, that when the 1e DMG was published in 1979, the inclusion of the monster summary tables and the column called "To Hit A.C. 0" got groups of players thinking about how to simplify the mechanic. Perhaps within the RPGA, possibly at Gencon, DMs started ironing out the details of the alternate system, and by 1982 it had polinated back to module writers for TSR.  Then there was some disagreement about whether it belonged in the Basic line, with some authors/editors using it right away and others avoiding it all the way into the 90s.  By 1987, though, the faults in a direct conversion to THAC0 (inability to hit things you could on the chart) had become obvious and were "patched" during the design of Second Edition by officially adopting the common house rule of always hitting on a natural 20.
+I have a theory, then, that when the 1e DMG was published in 1979, the inclusion of the monster summary tables and the column called "To Hit A.C. 0" got groups of players thinking about how to simplify the mechanic. Perhaps within the RPGA, possibly at Gencon, DMs started ironing out the details of the alternate system, and by 1982 it had pollinated back to module writers for TSR.  Then there was some disagreement about whether it belonged in the Basic line, with some authors/editors using it right away and others avoiding it all the way into the 90s.  By 1987, though, the faults in a direct conversion to THAC0 (inability to hit things you could on the chart) had become obvious and were "patched" during the design of Second Edition by officially adopting the common house rule of always hitting on a natural 20.
 
 D&D Third Edition (2002)
 ------------------------
@@ -124,7 +124,7 @@ Which was better?
 
 The chart system was considered clumsy, particularly for the DM, who had to look up the right row for any given monster. But PCs could jot down their own target numbers (Basic even included it on the character sheet) for reasonable ranges.  Hidden in the Basic charts, however, were interesting subsystems: diminishing gains at higher levels; grace ranges in the form of target plateaus; different advancement systems for monsters.
 
-THAC0 played comparitively quickly, once you got used to the math.  But advancement in both Advanced editions became linear and with THAC0 came the need for natural 20s, which opened the door for critical hits, then the need to balance those with confirming critical hits, and things got far more complicated than a table lookup.
+THAC0 played comparatively quickly, once you got used to the math.  But advancement in both Advanced editions became linear and with THAC0 came the need for natural 20s, which opened the door for critical hits, then the need to balance those with confirming critical hits, and things got far more complicated than a table lookup.
 
 By 3.x, the linearity was standardized into all areas; saving throws, bonuses from stats, costs to level, skill advancement, etc, etc.  Some of the heroic epic of the early editions was lost along the way.
 
