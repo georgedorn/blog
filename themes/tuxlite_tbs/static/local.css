@@ -5,6 +5,14 @@
 
 span.d20 {
   font-family: 'DPolyTwentySider', serif;
+  font-size: 325%;
+  line-height: 0.6em;
+  vertical-align: middle;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  padding-left: 5px;
+  padding-right: 0px;
 }
 
 
