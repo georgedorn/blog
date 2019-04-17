@@ -30,8 +30,19 @@ There are several other oddities, at least to our modern sensibilities, but only
 * Monsters fighting "normal men" rolled an attack for every Hit Die; the +X part was a bonus given to one of those attacks.
 * the party was expected to consist of about 20 PCs; this makes the "number appearing" column of the monster chart make more sense - you typically encountered 40-400 goblins!
 
-Our examples are both rudimentary and straightforward: the fighter needs to roll a 13 to hit a goblin (no strength bonus existed), the archer needs a 15 to hit a dragon (given +1 from dexterity and +1 from a magical bow).
+Our examples are both rudimentary and straightforward: the fighter needs to roll a |13| to hit a goblin (no strength bonus existed), the archer needs a |15| to hit a dragon (given +1 from dexterity and +1 from a magical bow).
 
+.. |13| raw:: html
+
+  <span class="d20">m</span>
+
+.. |14| raw:: html
+
+  <span class="d20">n</span>
+
+.. |15| raw:: html
+
+  <span class="d20">o</span>
 
 Basic (1977 - 1983+)  [#basic]_
 -------------------------------
@@ -39,9 +50,21 @@ Red Book Basic (TSR2014) had an extremely simple Hit Roll Table:
 
 .. image:: images/1974_red_book_to_hit.jpg
 
-Because the book only went to third level, all player characters had the same target roll.  Our fighter needs to roll a 12 on the 20-sided die (and then add 1 to it for 13) to hit the goblin (AC 6).
+Because the book only went to third level, all player characters had the same target roll.  Our fighter needs to roll a |12| (and then add 1 to it for 13) to hit the goblin (AC 6).
 
-Our archer example however, reveals the first interesting wart of the chart system: the cap of 20.  A roll of 20 was the most that could be required to hit anything at the time, and most importantly this is not a natural 20 but one after bonuses.  Our low-level archer can hit both a Red dragon (AC -1) or a Gold dragon (AC -2) on a total to-hit roll of 20, which means a natural roll of 18 or better.
+.. |12| raw:: html
+
+  <span class="d20">l</span>
+
+Our archer example however, reveals the first interesting wart of the chart system: the cap of 20.  A roll of 20 was the most that could be required to hit anything at the time, and most importantly this is not a natural 20 but one after bonuses.  Our low-level archer can hit both a Red dragon (AC -1) or a Gold dragon (AC -2) on a total to-hit roll of 20, which means a natural roll of |18| or better.
+
+.. |18| raw:: html
+
+  <span class="d20">r</span>
+
+.. |20| raw:: html
+
+  <span class="d20">t</span>
 
 This wart significantly benefits characters with bonuses to hit, whether magical or otherwise.  Further books, from Companion to Rules Cyclopedia, standardized the table to repeat the 20 exactly five times before moving on to 21.  The full chart, after expansion by subsequent books (from the DM's Screen, TSR9431):
 
@@ -60,9 +83,9 @@ AD&D First Edition (1979)
 
 .. image:: images/first_edition_to_hit_fighters.jpg
 
-A bit counter-intuitive to read, so our fighter example can illustrate.  To hit a goblin (still AC 6), our fighter needs a natural roll of 13 (to which +1 is added for a total of 14).
+A bit counter-intuitive to read, so our fighter example can illustrate.  To hit a goblin (still AC 6), our fighter needs a natural roll of |13| (to which +1 is added for a total of 14).
 
-Our archer example reveals that not only has Basic's 20-plateau persisted, it stretched to 6 entries instead of 5!  Now our archer can hit anything from a 0 to -5 AC on a natural 18 or better.  At the same time, many monsters have seen their armor nerfed; of the dragons, only a Chromatic (AC 0), Red or Silver (AC -1), Gold (AC -2) or Platinum (AC -3) fall in this range.  To see an AC -5 we have to look into the ranks of demons and devils.
+Our archer example reveals that not only has Basic's 20-plateau persisted, it stretched to 6 entries instead of 5!  Now our archer can hit anything from a 0 to -5 AC on a natural |18| or better.  At the same time, many monsters have seen their armor nerfed; of the dragons, only a Chromatic (AC 0), Red or Silver (AC -1), Gold (AC -2) or Platinum (AC -3) fall in this range.  To see an AC -5 we have to look into the ranks of demons and devils.
 
 Curiously, in Appendix E of the DMG, we have our first mention of a single figure meant to simplify the chart: a column called "To Hit A.C. 0".
 
@@ -77,9 +100,9 @@ AD&D Second Edition (1989)
   **Figuring the To-Hit Number**
   The first step in making an attack roll is to find the number needed to hit the target.  Subtract the Armor Class of the target from the attacker's THAC0 (Remember that if the Armor Class is a negative number, you *add* it to the attacker's THAC0.)  The character has to roll the resulting number, or higher, on 1d20 to hit the target.
   
-THAC0 officially removed the 20-plateau wart, for better or worse, and also made it easier to preemptively include your typical bonuses and penalties for any given weapon.  We could say that our fighter has a THAC0 of 20 and a +1 to hit, or we could just say he has a THAC0 of 19.  They're logically equivalent.  To hit that goblin (AC 6, still), the fighter needs a natural 13.
+THAC0 officially removed the 20-plateau wart, for better or worse, and also made it easier to preemptively include your typical bonuses and penalties for any given weapon.  We could say that our fighter has a THAC0 of 20 and a +1 to hit, or we could just say he has a THAC0 of 19.  They're logically equivalent.  To hit that goblin (AC 6, still), the fighter needs a natural |13|.
 
-To compensate for the now-missing wiggle room at the edge of your character's abilities, for the first time we see rules stating that a 20 always hits.  This is a small consolation for the archer with the magic bow, however.  Where a natural 18 would hit a wide range of dragons, that 18 will only hit AC 0 targets now - Blue and Green dragons.  Coupled with a de-nerfing of monsters in 2e, a natural 20 is needed for almost every other well-known dragon type.
+To compensate for the now-missing wiggle room at the edge of your character's abilities, for the first time we see rules stating that a 20 always hits.  This is a small consolation for the archer with the magic bow, however.  Where a natural 18 would hit a wide range of dragons, that |18| will only hit AC 0 targets now - Blue and Green dragons.  Coupled with a de-nerfing of monsters in 2e, a natural |20| is needed for almost every other well-known dragon type.
 
 The natural 20 rule also has interesting side effects; without additional countermeasures, a small army of scrubs (goblins, kobolds, bullywugs) can outclass the most absurdly armored high-tier enemy, simply by arming themselves with ranged weapons and hoping for natural 20s.
 
@@ -111,7 +134,7 @@ D&D Third Edition (2002)
 
 3e brought about a drastic overhaul of nearly every die-roll mechanic, calling the new mechanic DC (Difficulty Class).  Saving throws, skills rolls, and even to-hit rolls became a matter of rolling 1d20, adding your bonuses, and trying to exceed the desired DC.  AC was divorced from its naval wargaming roots (1st-class armor being better than 3rd-class armor) and instead ascended as it got better.
 
-On the one hand, this made the combat roll streamlined.  Our fighter needs to roll the goblin's AC (15) to hit it, adding 1 to the roll; in other words, a natural 14 or better.
+On the one hand, this made the combat roll streamlined.  Our fighter needs to roll the goblin's AC (15) to hit it, adding 1 to the roll; in other words, a natural |14| or better.
 
 On the other hand, this also lead to a linear progression of power and a proliferation of tiny bonuses to track.  That first-level fighter almost certainly isn't adding just +1; more likely +1 from Base Attack Bonus, +3 from Strength, +1 from a feat, etc.  It's not uncommon for a mid-level fighter to be adding +20 to an attack roll, and monsters have been scaled accordingly.  While it's mechanically identical to a low THAC0 combined with Strength and magic, it feels different during play to lump everything into a single bonus that overwhelms the variance range of the die it modifies.
 
