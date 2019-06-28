@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'George Dorn'
 SITENAME = u'Circuitlocutious'
-SITEURL = '/blog/'
+SITEURL = '/eblog/'
 
 PATH = 'content'
 
@@ -39,8 +39,6 @@ LINKS = [
 # Social widget
 SOCIAL = (
         ('Mastodon', 'https://social.coop/GDorn'),
-        ('Stack Overflow', 'http://stackoverflow.com/users/402605/gdorn'),
-        ('Linkedin', 'http://www.linkedin.com/in/gdorn'),
         ('Github', 'https://github.com/georgedorn'),
         ('Gitlab', 'https://gitlab.com/u/georgedorn'),
         )
@@ -51,6 +49,6 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 #THEME = 'notmyidea'
 #DISQUS_SITENAME = 'gdorn-blog'
-COMMENTS_SITENAME = 'gdorn-tech-blog'
+COMMENTS_SITENAME = 'gdorn-elect-blog'
 #GITHUB_URL = 'http://github.com/georgedorn/blog'
 THEME = './themes/tuxlite_tbs'
