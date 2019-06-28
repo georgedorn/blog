@@ -11,7 +11,7 @@ I'm a core maintainer of Django-Tastypie, the oldest REST framework for Django. 
 This isn't about DRF vs Tastypie; they both have their advantages and disadvantages.  If you're trying to decide on a REST framework,
 my first suggestion is the same one I'd give for trying to find the right library for any project: figure out your needs, your team's needs,
 pare your options down to a few viable ones, and then try building something with all of them.  Don't take any developer's word for which
-is best; we all (myself included) have biases grown from out own projects and experiences and those are not your projects or experience.
+is best; we all (myself included) have biases grown from our own projects and experiences and those are not your projects or experience.
 
 Instead, this post is about something I do about once or two a year: releasing a new version of a (relatively) popular project via PyPI and Github.
 
@@ -25,6 +25,7 @@ Keep one centralized version number, then import it into ``setup.py`` and use it
 
 But ``setup.py`` is almost certainly not the only reference to the current version.  Here's everywhere we need to bump the version number:
 
+* `tastypie.VERSION <https://github.com/django-tastypie/django-tastypie/blob/master/tastypie/__init__.py>`_ - where ``setup.py`` gets its info.
 * `README <https://github.com/django-tastypie/django-tastypie/blob/master/README.rst>`_ - used by GitHub to show our project description at the top-level project page.
 * `Documentation <https://github.com/django-tastypie/django-tastypie/tree/master/docs>`_ - and specifically our ``index.rst`` page. Our docs are automatically built and deployed to `Read The Docs <https://django-tastypie.readthedocs.io/en/latest/>`_ which saves us a lot of work.
 * `Release notes <https://github.com/django-tastypie/django-tastypie/tree/master/docs/release_notes>`_ - these are included in the docs, and every new release gets a new notes file, which must also be linked from the ``release_notes/index.rst`` page.  More on that below.
@@ -38,7 +39,7 @@ last release and, crucially, a link to show all commits made to ``master`` since
 keeping the nitty-gritty details confined to our 
 `Backwards-Incompatible Changes <https://github.com/django-tastypie/django-tastypie/blob/master/BACKWARDS-INCOMPATIBLE.txt>`_ file.
 
-"Releasing" a Python library on GitHub is a bit of an anachromism; most users will be deploying from PyPI.  But it is a simple process
+"Releasing" a Python library on GitHub is a bit of an anachronism; most users will be deploying from PyPI.  But it is a simple process
 (just create a new Draft Release from the Releases page, pointing at either ``master`` or a release tag.) and worth it for the rollup
 diffs and commit log alone.
 

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ DEFAULT_LANG }}">
 <head>
     <meta charset="utf-8">
-    <title>{% block windowtitle %}{{ SITENAME }}{% endblock %}</title>
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
     <meta name="description" content="">
     <meta name="author" content="{{ AUTHOR }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -16,6 +17,20 @@
     <link href="{{ SITEURL }}/theme/bootstrap.min.responsive.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/local.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/pygments.css" rel="stylesheet">
+
+    <!-- So Firefox can bookmark->"abo this site" -->
+    {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" rel="alternate" title="{{ SITENAME }}" type="application/atom+xml">
+    {% endif %}
+    {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate" title="{{ SITENAME }}" type="application/atom+xml">
+    {% endif %}
+    {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate" title="{{ SITENAME }}" type="application/rss+xml">
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate" title="{{ SITENAME }}" type="application/rss+xml">
+    {% endif %}
 
 </head>
 
@@ -40,7 +55,7 @@
         {% endfor %}
             
         {% if DISPLAY_PAGES_ON_MENU %}
-        {% for page in PAGES %}
+        {% for page in pages %}
             <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
         {% endif %}
@@ -69,10 +84,22 @@
             
                 <li><a href="{{ SITEURL }}/archives.html">Archives</a>
                 <li><a href="{{ SITEURL }}/tags.html">Tags</a>
-                <li><a href="{{ SITEURL }}/{{ FEED }}" rel="alternate">Atom feed</a></li>
-                {% if FEED_RSS %}
-                <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
+
+
+
+                {% if FEED_ALL_ATOM %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom feed</a></li>
                 {% endif %}
+                {% if FEED_ATOM %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" rel="alternate">Atom feed</a></li>
+                {% endif %}
+                {% if FEED_RSS %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" rel="alternate">RSS feed</a></li>
+                {% endif %}
+                {% if FEED_ALL_RSS %}
+                <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" rel="alternate">RSS feed</a></li>
+                {% endif %}
+
             </ul>
             </div>
 
@@ -129,12 +156,17 @@
 
 <footer>
 <br />
-<p><a href="{{ SITEURL }}">{{ SITENAME }}</a> &copy; {{ AUTHOR }} 2012</p>
+{% if articles %}
+   {% set copy_date = articles[0].date.strftime('%Y') %}
+{% else %}
+   {% set copy_date = '' %}
+{% endif %}
+<p><a href="{{ SITEURL }}">{{ SITENAME }}</a> &copy; {{ AUTHOR }} {{ copy_date }}</p>
 </footer>
 
 </div> <!-- /container -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-collapse.js"></script>
+<script src="{{ SITEURL }}/theme/bootstrap-collapse.js"></script>
 {% include "analytics.html" %}
 {% include "github.html" %} 
 </body>
