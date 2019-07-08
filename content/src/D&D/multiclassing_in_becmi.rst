@@ -10,7 +10,7 @@ As much as I like Basic's simplicity, I miss the flexibility of multiclassing th
 
 The key to the flexibility is not having to decide to be multiclass until after you've played a while.  1e and 2e's multiclass systems failed in this regard; you have to decide exactly what classes you were mixing when you start the character, and if you change your mind later you have to create a new character.
 
-This optional multiclass system builds on Breeyark's excellent `Building the Perfect Class <http://breeyark.org/building-the-perfect-class/>`_ series; that spreadsheet / calculator is essential for this additional feature.  In fact, traditional 1e/2e multiclassing is entirely possible using just that calculator, by picking the class features you want for your character as it is created.  This system adds the ability to buy additional features after the PC has been adventuring for a while, by spending XP to gradually become a new custom class.
+This optional multiclass system builds on Breeyark's excellent `Building a More Perfect Class <http://breeyark.org/building-a-more-perfect-class/>`_ series; that spreadsheet / calculator is essential for this additional feature.  In fact, traditional 1e/2e multiclassing is entirely possible using just that calculator, by picking the class features you want for your character as it is created.  This system adds the ability to buy additional features after the PC has been adventuring for a while, by spending XP to gradually become a new custom class.
 
 How Multiclassing Works
 =======================
