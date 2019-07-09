@@ -5,5 +5,6 @@ First Post
 :tags: rpg, blogging
 :category: rpg
 :slug: first_post
+:status: draft
 
 Just a test post, getting this Pelican-powered blog up and running.
