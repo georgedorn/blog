@@ -48,7 +48,7 @@ Basic (1977 - 1983+)  [#basic]_
 -------------------------------
 Red Book Basic (TSR2014) had an extremely simple Hit Roll Table:
 
-.. image:: images/1974_red_book_to_hit.jpg
+.. image:: {filename}/images/1974_red_book_to_hit.jpg
 
 Because the book only went to third level, all player characters had the same target roll.  Our fighter needs to roll a |12| (and then add 1 to it for 13) to hit the goblin (AC 6).
 
@@ -68,7 +68,7 @@ Our archer example however, reveals the first interesting wart of the chart syst
 
 This wart significantly benefits characters with bonuses to hit, whether magical or otherwise.  Further books, from Companion to Rules Cyclopedia, standardized the table to repeat the 20 exactly five times before moving on to 21.  The full chart, after expansion by subsequent books (from the DM's Screen, TSR9431):
 
-.. image:: images/basic_complete_to_hit.jpg
+.. image:: {filename}/images/basic_complete_to_hit.jpg
 
 So our archer example goes even further, also hitting the "large" versions of our Red (AC -3) and Gold (AC -4) dragons, and even up to a "huge" Red dragon (AC -5), all on a natural roll of 18 or better.  It's not until he tangles with a huge Gold dragon (AC -6) that the difficulty increases again (needing a natural 19).
 
@@ -81,7 +81,7 @@ AD&D First Edition (1979)
 
 1e buried the to-hit chart in the DMG.  Here's the fighter chart:
 
-.. image:: images/first_edition_to_hit_fighters.jpg
+.. image:: {filename}/images/first_edition_to_hit_fighters.jpg
 
 A bit counter-intuitive to read, so our fighter example can illustrate.  To hit a goblin (still AC 6), our fighter needs a natural roll of |13| (to which +1 is added for a total of 14).
 
@@ -89,7 +89,7 @@ Our archer example reveals that not only has Basic's 20-plateau persisted, it st
 
 Curiously, in Appendix E of the DMG, we have our first mention of a single figure meant to simplify the chart: a column called "To Hit A.C. 0".
 
-.. image:: images/first_edition_to_hit_zero.jpg
+.. image:: {filename}/images/first_edition_to_hit_zero.jpg
 
 Despite the name, this isn't a proper THAC0 as it was later known; there are no explanations of how to use this number, except presumably to compare monsters and perhaps make it easier to look up the right column in the monster to-hit matrix.  The Monster Manual does not print the number at all.
 
@@ -122,7 +122,7 @@ AD&D First Edition also included it in some publications, though with similarly 
 * RPGA 3, The Forgotten King, 1983:  Uses THAC0 for monsters and NPCs, with a special notation, seemingly an attempt to encode the 20-plateau. |note|
 * UK4, When A Star Falls, 1984: Similarly uses THAC0 and explains the mechanics with the a caveat as B10, as well as occasionally including a star in the notation to suggest looking up the chart in specific cases.
 
-.. |note| image:: images/rpga3_thac0.jpg
+.. |note| image:: {filename}/images/rpga3_thac0.jpg
 
 I Have A Theory
 _______________

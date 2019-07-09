@@ -4,7 +4,7 @@ Magic Item Distribution In D&D
 :date: 2019-07-07
 :tags: rpg, D&D, history
 :category: rpg
-:slug: low_magic_basic
+:slug: magic_distribution
 :status: draft
 
 While working on some homebrew rules for my low-magic Rules Cyclopedia game, I stumbled over my own incorrect assumption that BECMI handed out treasure almost as often as 3.5.  This made me realize that a more careful analysis is needed, and that the analysis could make adjusting published materials for other additions easier.  I've frequently used Basic, 1e and 2e adventures in my long-running 3.5 game, with the minor side effect of not distributing quite as much magical treasure as 3.5 expects.
@@ -23,11 +23,11 @@ Basic (B/X, BECMI, Rules Cyclopedia)
 
 There are 15 Group Treasure Types and 7 Individual Treasure Types in Red Box Basic.  These drastically change the expected types of coins, gems and jewelry found in any given treasure, but it's only the Magic Items column that matters to us.
 
-.. image:: basic_magic_items_column.jpg
+.. image:: {filename}/images/basic_magic_items_column.jpg
 
 Entries that are "Any X" end up using the Magic Item Type table:
 
-.. image:: basic_magic_item_type.jpg
+.. image:: {filename}/images/basic_magic_item_type.jpg
 
 From this, we see 40% weapons and armor, 5% rings and 5% miscellaneous.  Rods also tend to be permanent, but "Other Weapons" also includes consumable ammunition for missile devices and thrown weapons.  Also, the extra treasure types that exclude weapons and armor or add more potions, scrolls, etc make up for it.  I'm comfortable with this approximation: **in Red Book Basic, roughly 50% of treasure is a consumable**.
 
@@ -35,7 +35,7 @@ Expert doesn't change the distribution of types, but does add unguarded treasure
 
 Companion doesn't change the treasure types, but does rearrange the Magic Item Type table:
 
-.. image:: companion_magic_item_type.jpg
+.. image:: {filename}/images/companion_magic_item_type.jpg
 
 This table increases the odds of Miscellaneous items, and separates Missle or Device from where it was previously included in "Other Weapons".  The odds of a consumable are still roughly 50%, however, as some new miscellaneous items are consumable.
 
@@ -48,7 +48,7 @@ First edition doesn't mention Treasure Types in the DMG, saving it for the appen
 
 The Treasure (Random Determination) chapter is supposed to be about treasure maps and the hoards they lead to, but I am guessing a lot of DMs ended up using to populate random treasure hoards.
 
-.. image:: first_edition_magic_treasure.jpg
+.. image:: {filename}/images/first_edition_magic_treasure.jpg
 
 The paragraph that follows it suggests this does reflect design intent:
 
@@ -70,13 +70,13 @@ D&D 3.5
 
 3.5e did away with treasure types entirely. Awarding treasure now depended on the level of the encounter, with some monsters adjusting the results (e.g. some monsters having 50% more gems, or half as many coins).  The treasure chart results in mundane, minor, medium, and major items being awarded.  Medium items start to appear at level 6, major items appear at 10th (and become increasingly likely at higher levels).
 
-.. image:: third_edition_magic_items.jpg
+.. image:: {filename}/images/third_edition_magic_items.jpg
 
 From this we see that the portion of consumable items is quite high (70%) for minor items and drops off rapidly for medium (48%) and major (20-25%) items.  Minor items continue to appear, though less commonly, so as PCs gain levels and fight more difficult foes, they can expect to find an increasing proportion of permanent upgrade items.
 
 In addition, there's clear intent given in a sidebar, which presents a table explaining how much income and wealth a party should expect at any given level.
 
-.. image:: third_edition_wealth.jpg
+.. image:: {filename}/images/third_edition_wealth.jpg
 
 Working back from this, it would appear that the designers expected PCs to spend about 75% of their income on expenses - being raised from the dead, having spells cast, consuming purchaseable items, etc.
 
@@ -86,7 +86,7 @@ D&D Fourth Edition
 
 Fourth edition finishes divorcing treasure from monsters, suggesting instead that the DM simply award treasure from a table of Parcels.  For example, a level 1 party could find:
 
-.. image:: fourth_edition_treasure_parcels.jpg
+.. image:: {filename}/images/fourth_edition_treasure_parcels.jpg
 
 With the exception of specifically-listed potions, magic items found in treasure parcels are all permanent.  Even wands, which don't have charges.  This is because almost all expendable resources are part of the character, not separate equipment, with the notable exceptions of potions, gold, and residuum (raw magic item dust, used for making more magic items).
 
@@ -101,7 +101,7 @@ D&D Fifth Edition
 
 Fifth backed away from gear-as-configuration and returned to a system closer to third.  Treasure hoards are sized according to challenge level, with one table for every five levels (corresponding to tiers).  There are also 8 Magic Item subtables, A through I, and as challenge rating increases, higher-lettered subtables are used more frequently.
 
-.. image:: fifth_edition_magic_item_table_a.jpg
+.. image:: {filename}/images/fifth_edition_magic_item_table_a.jpg
 
 Potions an scrolls make up the vast majority of types A through E.  F through I are all permanent or semi-permanent, as wands and staves now regenerate charges and only destroy themselves rarely when reduced to their last charge.
 
@@ -121,7 +121,7 @@ More realistically, level 1 PCs aren't going to be attacking full lairs of monst
 
 This is reflected in the B series of adventures, and we can use the chart on page 6 of B1-9 In Search of Adventure to find a rough idea of an appropriate order of adventures.
 
-.. image:: B_series.jpg
+.. image:: {filename}/images/B_series.jpg
 
 
 - B9 - Castle Caldwell - has a sword +1, +2 vs undead in the hands of a berserker and a dagger +1 inside a gelatinous cube.

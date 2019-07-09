@@ -40,7 +40,7 @@ The incompleteness of the original D&D printing led to Gygax making drastic chan
 
   The awarding of experience points is often a matter of discussion, for the referee must make subjective judgments. Rather than the (ridiculous) 100 points per level for slain monsters, use the table below, dividing experience equally among all characters in the party involved.
 
-.. image:: images/expert_xp_monsters.jpg
+.. image:: {filename}/images/expert_xp_monsters.jpg
     :alt: XP chart from Expert.
 
 This change would be canonized in the rest of the Basic lineage, reprinted verbatim in the Blue book (1977) as well as influencing the AD&D rules.  The table image above is from Expert, but the numbers remained largely unchanged throughout the Basic lineage.
@@ -111,7 +111,7 @@ It would seem that the Gazetteer authors agreed with the Gygax's premise, but no
 
 Gygax's XP-for-monsters chart also continued to be used, though slightly modified:
 
-.. image:: images/first_edition_monster_xp.jpg
+.. image:: {filename}/images/first_edition_monster_xp.jpg
     :alt: XP chart from AD&D First Edition.
 
 While there was no mention of roleplaying awards or bonuses for achieving goals, Gygax did suggest an optional special bonus of 1,000 xp for any PC that was slain but then raised from the dead.
@@ -142,7 +142,7 @@ More concretely, the existing first-edition rules were expanded, including new i
 
 Additionally, per-class awards were somewhat codified:
 
-.. image:: images/second_edition_class_xp.jpg
+.. image:: {filename}/images/second_edition_class_xp.jpg
     :alt: XP chart from AD&D First Edition.
 
 Now, with the exception of the Rogue, characters could expect to earn most of their XP from defeating monsters, taking specific in-class actions (presumably while defeating monsters) and nebulous ad-hoc XP bonuses.

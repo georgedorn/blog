@@ -49,7 +49,7 @@ And the frequency of death is even addressed early, if the player dies in that d
 
   Your character has been lost in the dungeon. Don’t be upset; it can happen in any DUNGEONS & DRAGONS game, and often does, through no fault of yours. 
 
-.. image:: images/red_book_solo_death.jpg
+.. image:: {filename}/images/red_book_solo_death.jpg
     :alt: Text from the red book solo adventure, explaining death to a new player.
 
 While natural healing isn't explained, resting at an inn for "a day or two" seems to be enough for most low-level PCs.  As for magical healing, at this low level only potions and spells of *cure light wounds* are detailed.
@@ -87,7 +87,7 @@ AD&D Second Edition (1989)
 --------------------------
 Second edition also kept the tradition of instant death at 0 hit points.
 
-.. image:: images/second_edition_death.jpg
+.. image:: {filename}/images/second_edition_death.jpg
     :alt: Text from the second edition Player's Handbook, explaining death rules.
 
 Natural healing through rest comes with two options; resting while traveling regains 1hp per day, while a full day of bed rest regains 3hp (adding Constitution bonuses each full week).
