@@ -127,7 +127,23 @@ AD&D First Edition also included it in some publications, though with similarly 
 I Have A Theory
 _______________
 
-I have a theory, then, that when the 1e DMG was published in 1979, the inclusion of the monster summary tables and the column called "To Hit A.C. 0" got groups of players thinking about how to simplify the mechanic. Perhaps within the RPGA, possibly at Gencon, DMs started ironing out the details of the alternate system, and by 1982 it had pollinated back to module writers for TSR.  Then there was some disagreement about whether it belonged in the Basic line, with some authors/editors using it right away and others avoiding it all the way into the 90s.  By 1987, though, the faults in a direct conversion to THAC0 (inability to hit things you could on the chart) had become obvious and were "patched" during the design of Second Edition by officially adopting the common house rule of always hitting on a natural 20.
+I have a theory, then, that when the 1E DMG was published in 1979, the inclusion of the monster summary tables and the column called "To Hit A.C. 0" got groups of players thinking about how to simplify the mechanic. Perhaps within the RPGA, possibly at Gencon, DMs started ironing out the details of the alternate system, and by 1982 it had pollinated back to module writers for TSR.  Then there was some disagreement about whether it belonged in the Basic line, with some authors/editors using it right away and others avoiding it all the way into the 90s.  By 1987, though, the faults in a direct conversion to THAC0 (inability to hit things you could on the chart) had become obvious and were "patched" during the design of Second Edition by officially adopting the common house rule of always hitting on a natural 20.
+
+Update 7/10/2019:
+
+With help from assorted blogs, I've tracked down a fairly early mention of Thac0 to the UCLA Computer Club's Alarums & Excursions fan magazine.  In `issue #32, April 1978 <https://rpggeek.com/image/2956576/alarums-excursions-issue-32-apr-1978>`_ editor Lee Gold writes:
+
+  "One of the devices we use is THAC0 (To Hit AC 0).  This is a composite of the character's type, level, strength, weapon, and other bonuses.  THAC0 must be recomputed when any of this changes.  THAC0 greatly speeds things up all by itself."
+
+.. image:: {filename}/images/alarums_and_excursions_thac0.jpg
+
+This is reporting what her group did at the time; whether they invented it or adopted it from elsewhere is unknown.  A later issue explains it in more detail, but given that it includes class, level and strength, it's clearly not just a reference to the to-hit chart as Gygax intended with the monster chart in the 1E DMG.
+
+But this also invalidates my theory that the 1E DMG originated the notion; this publication predated the release of the DMG by a year.  Rather, Gygax may have seen clubs using this folk mechanic and included that column to make things easier for those players using it.
+
+Other sources for this info:
+
+Playing At the World's `To Hit Armor Class Zero <http://playingattheworld.blogspot.com/2015/11/to-hit-armor-class-zero.html>`_
 
 D&D Third Edition (2002)
 ------------------------
