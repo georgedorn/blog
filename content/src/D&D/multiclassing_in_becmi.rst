@@ -3,7 +3,7 @@ On-the-fly Multiclassing Rules for BECMI / BX
 
 :date: 2019-07-08
 :tags: rpg, D&D, history
-:category: D&D, homebrew
+:category: homebrew
 :slug: multiclassing_in_basic
 
 As much as I like Basic's simplicity, I miss the flexibility of multiclassing that 3.5 and 5e had.  5e's is even more reasonably balanced than 3.5's.

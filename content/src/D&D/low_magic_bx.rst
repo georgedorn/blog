@@ -3,7 +3,7 @@ Low Magic Basic D&D
 
 :date: 2019-07-07
 :tags: rpg, basic, magic, homebrew
-:category: rpg
+:category: homebrew
 :slug: low_magic_basic
 :status: draft
 
