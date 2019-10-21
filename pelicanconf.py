@@ -7,7 +7,7 @@ SITENAME = u'RPG Works and Sundry'
 SITEURL = '/rpgblog/'
 
 PATH = 'content'
-
+STATIC_PATHS = ['images', 'files']
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'

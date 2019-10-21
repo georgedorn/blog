@@ -9,25 +9,30 @@ Brightwater: the Meatgrinder
 Over the weekend, I hosted a one-shot kickoff funnel game.
 I used the module `Meatgrinder <https://backtothedungeon.blogspot.com/2016/04/a-new-free-0-level-funnel-to-1st-level.html>`_, a free zine-style adventure for Dungeon Crawl Classics.
 
-Funnels and DCC Occupations
----------------------------
 
-A *funnel* is a module for many low-level characters, often level 0 commoners, in which most die or are grievously wounded, but the survivors become adventurers.
+Systems
+-------
+
+The rules are cobbled together from Basic (especially B/X) and Dungeon Crawl Classics.  The idea of a funnel is from DCC; a *funnel* is a module for many low-level characters, often level 0 commoners, in which most die or are grievously wounded. The few survivors become first-level adventurers.
 Despite being a relatively recent invention, a funnel module provides several helpful features for starting OSR games. They're the opposite of modern D&D;
 PCs are nearly powerless, believable people with ordinary lives.  Funnels set the tone of danger and desperation of low-level adventuring and are story
 generators, creating backstories for heroes in-game.  Combined with a simple character generation system, funnels can be as low-friction as starting a boardgame,
 except heroes emerge from the other side.
 
-I'm borrowing a handful of ideas from DCC for this system as well.  Most notable are occupations instead of skills.  Every commoner has a job of some sort,
-providing just enough information to know what the character might be good at.
-While the DCC backgrounds include things like guards, soldiers and demihumans, I cobbled together a new collection from several giant lists of medieval occupations without military or combat-competent jobs.
+Stats are the usual six from B/X, rolled 3d6 in order with B/X's non-linear stat mods (e.g. 16-17 is +2, 18 is +3).
+
+I'm not using skills, at least not yet; instead I'm borrowing DCC's occupations.  Every commoner has a job of some sort, providing just enough information to know what the character might be good at.  When a roll is needed, a simple roll-under-stat mechanic is used, generally on a d20.
 Meatgrinder kills off the King's Army and town militia in the opening scene, leaving only a small band of irregulars, the PCs.
+While the DCC backgrounds include things like guards, soldiers and demihumans, I came up with my own collection 
+from several giant lists of medieval occupations, leaving out any military or combat-competent jobs.
 
 Character Generation
 --------------------
 
 I streamlined the process of creating a character, pre-rolling 30 characters and filling out custom index-card character sheets.  
-.. image:: images/brightwater_pc_scheets.png
+
+.. image:: {filename}/images/brightwater_pc_sheets.png
+    :alt: Picture of Index-card character sheets
 
 Ability scores were simply 3d6, in order, and space was left for name, occupation/background, AC, Hit Points and notes.  Occupations were charted up roughly on a d200 table, with each associated with one or two ability scores.
 
@@ -53,9 +58,9 @@ Actual Play (Spoilers)
 ----------------------
 
 The players are a band of irregulars told to hold a mountain pass outside of town against invading beastmen. I had the players select somebody to carry the absent Duke's backup war banner (which quickly became a spear). Fires brought the PCs back to town, where they found much of it burnt down.
-The stone church where the villagers too young, old or infirm were hiding had been breached and a bonfire in the town commons had "a couple dozen" horrible beastmen cooking and eating people. Meatgrinder goes _hard_ on the child-murder, but I toned it down, deciding that beastmen stole children to raise as more beastmen.
+The stone church where the villagers too young, old or infirm were hiding had been breached and a bonfire in the town commons had "a couple dozen" horrible beastmen cooking and eating people. Meatgrinder goes *hard* on the child-murder, but I toned it down, deciding that beastmen stole children to raise as more beastmen.
 
-The first fight began with a _lot_ of careful planning. For obvious reasons, the players were tentative about a frontal assault, so they picked three volunteer runners to harass them and try to draw them into a fight.  After two rounds of hilariously bad attempts to throw stones at the beastmen, six decided to give chase.
+The first fight began with a *lot* of careful planning. For obvious reasons, the players were tentative about a frontal assault, so they picked three volunteer runners to harass them and try to draw them into a fight.  After two rounds of hilariously bad attempts to throw stones at the beastmen, six decided to give chase.
 With slightly fewer beastmen to deal with, the irregulars reluctantly charged.  The opening barrage was barely effective, reducing the beastmen in number to match the PCs, so I had the players roll attacks for beastmen against their own characters.  It was brutal, with every hit scored killing or maiming a PC.  A second round of battle went only slightly better, but I decided to check morale, realized morale wasn't a provided stat for the beastmen, and decided they weren't in the mood to lose more of their number, what with their leader having left them behind for cleanup duty.
 The beastmen withdrew, giving the PCs a minor victory and setting the stage for surviving NPCs to tell the story of what happened.
 
