@@ -15,7 +15,7 @@ And don't even start on the origins of the half-orc.
 But one that keeps popping up as an example of malicious antisemitism is the lich's phylactery:
 
 .. pull-quote::
-  "For a more explicit example of villainizing Jewish objects and folklore, take the Lich, a powerful being who has cheated death by becoming something unholy. Liches separate their souls from their bodies and put them in special places called a “phylacteries” so they can never die."
+  "For a more explicit example of villainizing Jewish objects and folklore, take the Lich, a powerful being who has cheated death by becoming something unholy. Liches separate their souls from their bodies and put them in special places called a “phylacteries” so they can never die [...] [Gygax] made the choice that an undead wizard king would keep his soul in something that Jews use for daily prayers."
 
    -- https://www.heyalma.com/dungeons-dragons-has-an-antisemitism-problem/
 
