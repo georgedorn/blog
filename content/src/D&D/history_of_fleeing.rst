@@ -73,6 +73,7 @@ The Expert book (the X of **B/X**) adds rules about pursuit in the wilderness, p
 
 .. image:: {filename}/images/basic_evasion_table.png
     :alt: Evasion Table from Expert D&D.
+..
 
   Pursuit: If the party fails to evade, they must fight or move away in a random direction (no mapping).  If the other group is faster, there is a 50% chance the party will be caught.  If the party is not caught, they may try to evade again.  Repeat the procedure until the party evades or is caught.
 
