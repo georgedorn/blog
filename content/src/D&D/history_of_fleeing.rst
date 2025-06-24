@@ -4,7 +4,7 @@ Fleeing and Pursuit Through the Eras of D&D
 :date: 2025-06-22
 :tags: D&D, mechanics, history
 :category: D&D
-:slug: history_of_xp
+:slug: history_of_fleeing
 
 As part of recovering old ideas from earlier editions, to build out my next homebrew OSR campaign, I came across quite a few reviewers mentioning how picking and choosing fights, and knowing when to run away from an encounter were critical skills in surviving early D&D.  But that got me wondering...  how did running away actually work back then?  And how has it change since?
 
