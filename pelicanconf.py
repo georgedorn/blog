@@ -22,7 +22,7 @@ DEFAULT_LANG = u'en'
 #AUTHOR_FEED_RSS = None
 FEED_RSS = 'rss.xml'
 #FEED_ALL_RSS = 'rss/all.rss.xml'
-CATEGORY_FEED_RSS = 'rss/%s.rss.xml'
+CATEGORY_FEED_RSS = 'rss/{slug}.rss.xml'
 RSS_FEED_SUMMARY_ONLY = False
 
 # Blogroll
