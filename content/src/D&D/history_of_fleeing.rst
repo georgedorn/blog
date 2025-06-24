@@ -138,7 +138,7 @@ Given this, which monsters are a dire, save yourself, drop-everything-and-run en
 
 For the vast majority of encounters, armored PCs are simply going to be unable to flee from a combat once it has started, so long as the monster wants to pursue.  For many, many more, even unarmored PCs will be easy to run down.  I don't think Gygax meant for these rules to be used, but for rulings to override them almost all of the time.
 
-*At least Gygax fixed the Zombies vs Skeletons problem.  Skeletons now move 12", which Zombies move 6*
+*At least Gygax fixed the Zombies vs Skeletons problem.  Skeletons now move 12", while Zombies move 6".*
 
 
 AD&D Second Edition (1989)
