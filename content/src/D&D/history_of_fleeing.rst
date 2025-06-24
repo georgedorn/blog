@@ -85,7 +85,7 @@ The Expert book (the X of **B/X**) adds rules about pursuit in the wilderness, p
 * Fighting Withdrawal is changed significantly; now it isn't really a means of escape, just an opportunity to move the fight around at 5' per round or offer a truce.
 * Retreat has been rephrased to make it clear that you can't use your running speed unless you start a movement phase without being in hand-to-hand combat; the retreat maneuver uses your encounter speed instead.  On the other hand, the order of events has changed a bit:
 
-     "Any enemy attacking him later in the combat round (that is, either an enemy who followed him during the enemies' movement phase or an enemy attacking with a ranged weapon) receives a + 2 attack roll bonus this round."
+     Any enemy attacking him later in the combat round (that is, either an enemy who followed him during the enemies' movement phase or an enemy attacking with a ranged weapon) receives a + 2 attack roll bonus this round.
 
 
 AD&D First Edition (1979)
