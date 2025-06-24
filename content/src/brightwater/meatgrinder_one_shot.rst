@@ -31,7 +31,7 @@ Character Generation
 
 I streamlined the process of creating a character, pre-rolling 30 characters and filling out custom index-card character sheets.  
 
-.. image:: {filename}/images/brightwater_pc_sheets.png
+.. image:: {static}/images/brightwater_pc_sheets.png
     :alt: Picture of Index-card character sheets
 
 Ability scores were simply 3d6, in order, and space was left for name, occupation/background, AC, Hit Points and notes.  Occupations were charted up roughly on a d200 table, with each associated with one or two ability scores.
@@ -42,7 +42,7 @@ Character creation was relatively fast:
 
 - name the PC (a list of suitable names cribbed from Dungeon World was provided, but most players preferred making up silly names)
 
-- roll on the d200 occupation chart, rerolling if the ability scores were an outright awful match, or if unrealistic duplicates happened (how many professional egg candlers can a small frontier town support?)  The spreadsheet of occupations I used can be downloaded `here <{filename}/files/occupations_short.ods>`_.
+- roll on the d200 occupation chart, rerolling if the ability scores were an outright awful match, or if unrealistic duplicates happened (how many professional egg candlers can a small frontier town support?)  The spreadsheet of occupations I used can be downloaded `here <{static}/files/occupations_short.ods>`_.
 
 - come up with a tool or implement related to that occupation that, in a pinch, the PC could fight with.  DCC provides these but I left it wide open for players to invent their own.  The butcher had knives, the wainwright had a mallet, the barkeep had a club for rousting drunks, the nightwatch had a staff to lean on and a lantern, etc.
 

@@ -70,7 +70,7 @@ Monsters are listed with combat movement speeds, and as with the blue edition, m
 
 The Expert book (the X of **B/X**) adds rules about pursuit in the wilderness, providing a table of random evasion chance, in which a smaller party trying to evade a larger party has increasingly good base chances, and some extra rules about the order of events:
 
-.. image:: {filename}/images/basic_evasion_table.png
+.. image:: {static}/images/basic_evasion_table.png
     :alt: Evasion Table from Expert D&D.
 ..
 
