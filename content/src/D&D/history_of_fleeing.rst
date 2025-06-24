@@ -52,7 +52,7 @@ Several monsters are quite a bit slower than PCs; oozes, molds and some insects 
 Basic (1977 - 1983+)
 --------------------
 
-Starting with the first Basic edition (sometimes called **Moldvay basic** or **B/X**), movement speeds vary by situation.  Encumbrance rules become more complex, as well.  Within combat, PCs will move between 40'/round (unarmored) and 10'/round (metal armor and/or heavily burdened).  Running speeds are also given, as 3 times normal combat movement.  Evasion and pursuit are far more detailed:
+Starting with the first Basic edition (sometimes called **Moldvay Basic** or **B/X**), movement speeds vary by situation.  Encumbrance rules become more complex, as well.  Within combat, PCs will move between 40'/round (unarmored) and 10'/round (metal armor and/or heavily burdened).  Running speeds are also given, as 3 times normal combat movement.  Evasion and pursuit are far more detailed:
 
   EVASION: Sometimes one side wishes to evade (avoid) an encounter.  If the evading side has a faster movement rate than the other and combat has not yet begun, evasion is automatic as long as the evading side is not forced to stop.
 
@@ -84,6 +84,7 @@ The Expert book (the X of **B/X**) adds rules about pursuit in the wilderness, p
 * Monsters make a morale check every five rounds of the pursuit or give up.
 * Fighting Withdrawal is changed significantly; now it isn't really a means of escape, just an opportunity to move the fight around at 5' per round or offer a truce.
 * Retreat has been rephrased to make it clear that you can't use your running speed unless you start a movement phase without being in hand-to-hand combat; the retreat maneuver uses your encounter speed instead.  On the other hand, the order of events has changed a bit:
+
      "Any enemy attacking him later in the combat round (that is, either an enemy who followed him during the enemies' movement phase or an enemy attacking with a ranged weapon) receives a + 2 attack roll bonus this round."
 
 
